@@ -1,0 +1,10 @@
+dbclock -- uses ncurses to display the date and time centered in your terminal.
+
+exit by pressing F2
+
+Requirements:
+ * ncurses.h
+ * make
+
+
+
