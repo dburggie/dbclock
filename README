@@ -1,10 +1,26 @@
 dbclock -- uses ncurses to display the date and time centered in your terminal.
 
-exit by pressing F2
+Usage:
+ $ dbclock
+ exit with F2
 
 Requirements:
- * ncurses.h
- * make
+ * libncurses
+
+Build:
+    $ make
+
+ * if you want to add dbclock to your PATH:
+    $ [sudo] make install
+ * defaults to installing to $HOME/bin
+
+ * if you don't have make:
+    $ gcc -o dbc_main.o -c dbc_main.c -lncurses
+    $ gcc -o dbc_util.o -c dbc_util.c -lncurses
+    $ gcc -o dbc_data.o -c dbc_data.c
+    $ gcc -o dbclock dbc_main.o dbc_util.o dbc_data.o
+
+
 
 
 
