@@ -2,4 +2,4 @@ build/
 ignore/
 
 *.o
-clock
+dbclock
