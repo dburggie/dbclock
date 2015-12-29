@@ -5,6 +5,7 @@ Usage:
  exit with F2
 
 Requirements:
+ * gcc
  * libncurses
 
 Build:
